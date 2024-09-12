@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://echo-kernel.bitsyncdev.com/blog"/>
     <subtitle>Echo Kernel Blog</subtitle>
-    <icon>https://echo-kernel.bitsyncdev.com/img/favicon.ico</icon>
+    <icon>https://echo-kernel.bitsyncdev.com/img/logo.svg</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://echo-kernel.bitsyncdev.com/blog/welcome</id>
