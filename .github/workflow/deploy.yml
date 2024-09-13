@@ -1,0 +1,17 @@
+name: GitHub Actions Demo
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: Build and deploy
+        run: |
+          cd ${{ github.workspace }
+          echo "Installing dependencies"
+          sudo apt install npm -y
+          export GIT_USER="Extraskilled56"
+          npm run deploy
+          echo done

@@ -11,7 +11,7 @@ const config = {
   
   title: 'Echo Kernel',
   tagline: 'Kernel in c and asmebelly',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
 
   // Set the production url of your site here
   url: 'https://echo-kernel.bitsyncdev.com',
