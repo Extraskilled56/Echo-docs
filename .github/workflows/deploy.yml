@@ -9,7 +9,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Build and deploy
         run: |
-          cd ${{ github.workspace }
+          cd ${{ github.workspace }}
           echo "Installing dependencies"
           sudo apt install npm -y
           export GIT_USER="Extraskilled56"
