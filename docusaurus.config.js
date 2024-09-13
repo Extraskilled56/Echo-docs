@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   
   title: 'Echo Kernel',
-  tagline: 'Kernel in c and asmebelly',
+  tagline: 'Kernel in c and assembly',
   favicon: 'img/logo.svg',
 
   // Set the production url of your site here

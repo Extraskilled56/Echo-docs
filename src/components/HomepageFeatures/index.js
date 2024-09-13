@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/c.svg').default,
     description: (
       <>
-        Coded in C and asmbelly for low level compatability
+        Coded in C and assembly for low level compatability
       </>
     ),
   },
