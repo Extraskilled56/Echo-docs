@@ -77,7 +77,7 @@ const config = {
       navbar: {
         title: 'Echo Kernel',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Echo kernel logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -85,7 +85,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -103,7 +103,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs/getting-started/intro',
               },
             ],
           },
